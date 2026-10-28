@@ -1,0 +1,48 @@
+# Python caches and build outputs
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Notebook checkpoints and temporary execution files
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+.codex/
+.agents/
+
+# Local editors and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+
+# Original dataset is obtained separately
+Bitcoin3.csv
+data/
+
+# Byte-identical aliases; retain the three canonical .keras artifacts
+/seq2seq_lstm_model.keras
+/best_seq2seq_lstm_model.keras
+
+# Local analysis artifacts
+graphify-out/
